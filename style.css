@@ -159,12 +159,14 @@ nav .menu a{
 
 /* notes section starts */
 #notes{
-    max-width: 1600;
+    /* width: 100%;
+    max-width: 1600; */
     /* border: 1px solid black; */
     margin: 0 auto;
     text-align: center;   
     background-color: #f6f8fa;
     margin-bottom: 120px;
+    padding: 50px;
 }
 
 #notes .notes-heading h1{
@@ -172,6 +174,7 @@ nav .menu a{
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
+    margin-top: 30px;
 
 }
 
@@ -220,19 +223,52 @@ nav .menu a{
 
 
 
-
-
-
-/* height: 674px;
-    background: url(./assets/hero-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* solution section starts */
+#solution .solution-container{
+    width: 85%;
+    max-width: 1260px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-      margin-bottom: 60px; */
+    gap: 78px;
+    /* border: 1px solid black; */
+    align-items:center;
+    margin-bottom: 120px;
+}
+
+.text-container .p1{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.text-container h1{
+    color: #001931;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+
+.text-container p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.text-container ul{
+    list-style: none;
+}
+
+.text-container ul li{
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 16px ;
+    font-weight: 500px;
+    line-height: 20px;
+
+}
 
 
 
