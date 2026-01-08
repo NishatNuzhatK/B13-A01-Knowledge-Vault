@@ -305,6 +305,53 @@ nav .menu a{
     margin-top: 16px;
 }
 
+/* footer section starts */
+
+#footer-container{
+    max-width: 100%;
+    border: 1px solid black;
+    height: 400px;
+    background-color: #001931;
+}
+
+#footer-container .upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+.upper .socials h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#footer-container .lower{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.lower p{
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+ 
+
+
+
+
+
+
 
 
 
